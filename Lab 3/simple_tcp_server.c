@@ -97,8 +97,14 @@ int main(){
 /*..................................Message to be sent to the client....................................*/
 	printf("Enter a message for the client...\n");
 	fgets(message, BUFFER_SIZE, stdin);
-
-/*..................................Sending the message to the client...................................*/
+/*........................................................................................................
+	7. Send a message on a socket using the send() function call
+	    ssize_t send(int sockfd, const void *buf, size_t len, int flags);
+		sockfd  ==> socket file descriptor
+		buf     ==> pointer to buffer where message will be stored
+		len     ==> length of buffer, ie. maximum length of incoming message
+		flags   ==> bitwise OR of various flags
+........................................................................................................*/
 	int bytes_sent = send(client_socket, message, strlen(message), 0);
 	if(bytes_sent != strlen(message)){
 		printf("An error occurred while sending the message to the client.\n");

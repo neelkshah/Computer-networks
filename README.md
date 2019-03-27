@@ -8,8 +8,8 @@ Simulator used - Network Simulator 2
 
 Packet sniffer - Wireshark with XGraph and NAM
 
-Lab 3: 
-*Creating simple TCP sockets
-*Programming basic message passing
+Lab 3:<br/>
+* Creating simple TCP sockets
+* Programming basic message passing
 
 Lab 4: 

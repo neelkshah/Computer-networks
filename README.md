@@ -12,4 +12,6 @@ Lab 3:<br/>
 * Creating simple TCP sockets
 * Programming basic message passing
 
-Lab 4: 
+Lab 5:<br/>
+* Implementing the rdt2.5 stop-and-wait protocol using unreliable UDP sockets (server and client)
+* Simulating packet loss
